@@ -143,4 +143,6 @@
 #endif
 #endif // WIFI_ENABLE
 
+#define OPENPNP_ENABLE         1 // enable openpnp support
+
 /**/

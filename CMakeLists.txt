@@ -96,6 +96,8 @@ pico_generate_pio_header(grblHAL ${CMAKE_CURRENT_LIST_DIR}/driverPIO.pio)
 target_compile_definitions(grblHAL PUBLIC RP2040)
 target_compile_definitions(grblHAL PUBLIC NEW_FATFS)
 target_compile_definitions(grblHAL PUBLIC LITTLEFS_ENABLE=1)
+# set number of axes (min: 3, max: 8)
+target_compile_definitions(grblHAL PUBLIC N_AXIS=4)
 
 if(ADD_WIFI)
     target_compile_definitions(grblHAL PUBLIC WIFI_ENABLE=1)

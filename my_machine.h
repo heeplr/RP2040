@@ -29,7 +29,7 @@
 //#define BOARD_BTT_SKR_PICO_10 // incomplete and untested!
 //#define BOARD_CNC_BOOSTERPACK
 //#define BOARD_CITOH_CX6000    // C.ITOH CX-6000 HPGL plotter
-//#define BOARD_GENERIC_4AXIS
+#define BOARD_GENERIC_4AXIS
 //#define BOARD_MY_MACHINE      // Add my_machine_map.h before enabling this!
 
 // Configuration
@@ -81,7 +81,7 @@
 // Optional control signals:
 // These will be assigned to aux input pins. Use the $pins command to check which pins are assigned.
 // NOTE: If not enough pins are available assignment will silently fail.
-//#define PROBE_ENABLE            0 // Default enabled, remove comment to disable probe input.
+#define PROBE_ENABLE            0 // Default enabled, remove comment to disable probe input.
 //#define SAFETY_DOOR_ENABLE      1
 //#define MOTOR_FAULT_ENABLE      1
 //#define MOTOR_WARNING_ENABLE    1

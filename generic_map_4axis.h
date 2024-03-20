@@ -60,7 +60,7 @@
 // Define ganged axis or A axis step pulse and step direction output pins.
 #if N_ABC_MOTORS > 0
 #define M3_AVAILABLE
-#define M3_STEP_PIN             (STEP_PINS_BASE + 3)
+// #define M3_STEP_PIN             (STEP_PINS_BASE + 3)
 #define M3_DIRECTION_PIN        (Z_DIRECTION_PIN + 1)
 #define M3_LIMIT_PIN            (Z_LIMIT_PIN + 1)
 #endif
